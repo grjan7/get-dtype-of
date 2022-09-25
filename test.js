@@ -1,7 +1,6 @@
 'use strict';
 const getTypeOf = require('./index.js');
 
-
 (function () {
   console.log("\nCase 1: empty\n");
   const result = {

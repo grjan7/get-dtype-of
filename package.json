@@ -16,7 +16,9 @@
     "null",
     "array",
     "undefined",
-    "number"
+    "number",
+    "datatype",
+    "type"
   ],
   "author": "Jana Rangasamy <janagr7@gmail.com>",
   "license": "ISC",
