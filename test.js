@@ -1,8 +1,6 @@
 'use strict';
 const getTypeOf = require('./index.js');
 
-console.log(getTypeOf(NaN));
-
 (function () {
   console.log("\nCase 1: empty\n");
   const result = {
