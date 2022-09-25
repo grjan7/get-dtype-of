@@ -26,6 +26,7 @@ This package returns the type of `input`. By default, the returned data type can
 
 | Without Option | Returns |  With Option (refineObject: true) | Returns |
 | :--------------|:--------|:-------------|:--------|
+| | | | |
 | getTypeOf(`"Hello"`) | string | getTypeOf(`"Hello"`, `true`)| string |
 | getTypeOf(`412`) | number | getTypeOf(`412`, `true`) | number |
 | getTypeOf(`true`) | boolean |  getTypeOf(`true`, `true`) | boolean |
