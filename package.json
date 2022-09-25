@@ -1,0 +1,34 @@
+{
+  "name": "get-typeof",
+  "version": "1.0.0",
+  "description": "Returns the datatype",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "typeof",
+    "get",
+    "refined",
+    "object",
+    "string",
+    "boolean",
+    "null",
+    "array",
+    "undefined",
+    "number"
+  ],
+  "author": "Jana Rangasamy <janagr7@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/grjan7/get-typeof#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grjan7/get-typeof.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grjan7/get-typeof/issues"
+  }
+}
