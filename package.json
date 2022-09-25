@@ -1,5 +1,5 @@
 {
-  "name": "get-typeof",
+  "name": "get-dtype-of",
   "version": "1.0.0",
   "description": "Returns the datatype",
   "main": "index.js",

@@ -1,12 +1,12 @@
-# get-typeof
+# get-dtype-of
 
 ## Description
 
-This package returns the type of `input`. By default, the returned data type can be a `string | number | boolean | array | object | null | undefined`. Setting `refineObject` to `true` returns the refined type of `object` (e.g., Date, Map, Set, Buffer, EventEmitter).
+This package returns the type of `input`. By default, the returned data type can be a `string | number | boolean | array | object | null | undefined | function`. Setting `refineObject` to `true` returns the refined type of `object` (e.g., Date, Map, Set, Buffer, EventEmitter).
 
 ## Installation
 ```sh
-  npm i get-typeof
+  npm i get-dtype-of
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ This package returns the type of `input`. By default, the returned data type can
 
 ```js
 
-  const getTypeOf = require('get-typeof');
+  const getTypeOf = require('get-dtype-of');
 
 ```
 
@@ -38,6 +38,8 @@ This package returns the type of `input`. By default, the returned data type can
 | getTypeOf(`["a", "b"]`) | array | getTypeOf(`["a", "b"]`, `true`)| array |
 | | | | |
 | getTypeOf(`null`) | null | getTypeOf(`null`, `true`) | null |
+| | | | |
+| getTypeOf(`stream`) | function | getTypeOf(`stream`, `true`) | function |
 | | | | |
 | getTypeOf(`{ name: "John" }`) | object | getTypeOf(`{ name: "John" }`, `true`) | object |
 | | | | |
