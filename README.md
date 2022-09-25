@@ -6,9 +6,7 @@ This package returns the type of `input`. By default, the returned data type can
 
 ## Installation
 ```sh
-
   npm i get-typeof
-  
 ```
 
 ### Usage
