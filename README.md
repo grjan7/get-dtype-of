@@ -1,5 +1,9 @@
 # get-dtype-of
 
+[![NPM version](https://img.shields.io/npm/v/get-dtype-of.svg)](https://www.npmjs.com/package/get-dtype-of)
+[![NPM downloads](https://img.shields.io/npm/dm/get-dtype-of.svg)](https://www.npmjs.com/package/get-dtype-of)
+[![Known Vulnerabilities](https://snyk.io/test/github/grjan7/get-typeof/badge.svg)](https://snyk.io/test/github/grjan7/get-typeof)
+
 ## Description
 
 This package returns the type of `input`. By default, the returned data type can be a `string | number | boolean | array | object | null | undefined | function`. Setting `refineObject` to `true` returns the refined type of `object` (e.g., Date, Map, Set, Buffer, EventEmitter).
