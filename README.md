@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/get-dtype-of.svg)](https://www.npmjs.com/package/get-dtype-of)
 [![NPM downloads](https://img.shields.io/npm/dm/get-dtype-of.svg)](https://www.npmjs.com/package/get-dtype-of)
-[![Known Vulnerabilities](https://snyk.io/test/github/grjan7/get-typeof/badge.svg)](https://snyk.io/test/github/grjan7/get-typeof)
+[![Known Vulnerabilities](https://snyk.io/test/github/grjan7/get-dtype-of/badge.svg)](https://snyk.io/test/github/grjan7/get-dtype-of)
 
 ## Description
 
